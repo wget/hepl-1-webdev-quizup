@@ -1,0 +1,47 @@
+.home:hover h5 span {
+    text-transform: uppercase;
+}
+.home h5 i {
+    display: none;
+}
+.home:hover h5 i {
+    display: inline-block;
+    padding-left: 10px;
+}
+.home, .home:hover, .home:visited {
+    color: black;
+}
+.home:hover {
+    text-decoration: none;
+}
+#registration-form #profile-picture-render {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.075);
+}
+#registration-form #profile-picture-render .fa-user {
+    font-size: 100px;
+}
+
+#registration-form #profile-picture-render #profile-picture-render-img {
+    padding: 15px;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+#registration-form #profile-picture-select {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    width: 100%;
+}
+
+#registration-form #profile-picture-select label {
+    margin: 0;
+}
+
+#registration-form #profile-picture-render:hover #profile-picture-select {
+    display: block;
+}
